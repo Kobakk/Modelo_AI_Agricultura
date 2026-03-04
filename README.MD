@@ -11,4 +11,8 @@ python3 -m venv pdf_agro
 spurce ruta_archivo
 ```
 
+## Enlazar rama con el git
 
+```bash
+git remote add origin "RUTA_SSH" <- importante tener configuraco el SSH en git!!!
+```
