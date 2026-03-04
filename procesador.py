@@ -2,7 +2,7 @@ import os
 import json
 from limpieza import  *
 
-def procesar_pdf(ruta_pdf, carpeta_salida="./pdfs_procesados"):
+def procesar_pdf(ruta_pdf, carpeta_salida="./resultados"):
     """Pipeline completo: PDF → JSON listo para ChromaDB"""
     os.makedirs(carpeta_salida, exist_ok=True)
     nombre = os.path.basename(ruta_pdf).replace('.pdf', '')
