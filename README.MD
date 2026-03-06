@@ -6,9 +6,12 @@
 ## creación del entorno (recomendado)
 
 ```bash
-python3 -m venv pdf_agro
+# Creación del entorno en  la ruta que queramos
+python3 -m venv nombre_entorno
 #activamos el entorno
-spurce ruta_archivo
+.nombre_entorno/ruta_archivo/activate.ps1
+#Descargamos las librerias de nustro requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Enlazar rama con el git
