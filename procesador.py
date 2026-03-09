@@ -41,6 +41,28 @@ def procesar_pdf(ruta_pdf, carpeta_salida="./resultados"):
     print(f"   ✅ Guardado en: {ruta_json}")
     return ruta_json
 
+# Función que procesa todos los pdfs de una carpeta indicada (default "pdfs")
+def procesar_carpeta_pdfs(carpeta_pdfs="./pdfs", carpeta_salida="./resultados"):
 
+    # Verifica si existe la carpeta
+    if not os.path.exists(carpeta_pdfs):
+        print(f"La carpeta '{carpeta_pdfs}' no existe")
+        return []
 
+    # lista en una variable todos los archivos de la carpeta que sean ".pdf"
+    archivos_pdf = [file for file in os.listdir(carpeta_pdfs) if file.lower().endswith('.pdf')]
 
+    # Si hay cero archivos pdf retorna un array vacio
+    if not archivos_pdf:
+        print(f"No hay ningun archivo en pdf en '{carpeta_pdfs}'")
+        return []
+
+    # Si hay un archivo pdf o más realiza el procesamiento de los pdfs
+    resultados = []
+    for archivo in archivos_pdf:
+        ruta_pdf = os.path.join(carpeta_pdfs, archivo)
+        ruta_json = procesar_pdf(ruta_pdf, carpeta_salida)
+        resultados.append(ruta_json)
+
+    print(f"\nProcesados {len(resultados)} PDFs en total")
+    return resultados
