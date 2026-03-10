@@ -1,0 +1,164 @@
+[
+  {
+    "id": "Q01",
+    "categoria": "Enfermedad fúngica",
+    "pregunta": "¿Qué enfermedad fúngica puede causar daños durante el desborre en la variedad Garnacha?",
+    "respuesta_modelo": "Excoriosis Diaporthe ampelina (Phomopsis viticola) puede causar daños durante el desborre, principalmente en la variedad Garnacha.",
+    "respuesta_esperada": "La excoriosis, causada por Diaporthe ampelina (Phomopsis viticola), puede causar daños si se producen lluvias durante el desborre, principalmente en la variedad Garnacha.",
+    "metricas": {
+      "score": 70.0,
+      "keyword_recall": 1.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 8.61
+    },
+    "verdict": "⚠️  PARCIAL",
+    "issues": []
+  },
+  {
+    "id": "Q02",
+    "categoria": "Control químico",
+    "pregunta": "¿En qué estados fenológicos se recomienda tratar contra la excoriosis?",
+    "respuesta_modelo": "Para controlar la excoriosis es aconsejable realizar dos tratamientos en los estados C (punta verde) y D (salida de hojas).",
+    "respuesta_esperada": "Se recomienda realizar dos tratamientos en los estados C (punta verde) y D (salida de hojas).",
+    "metricas": {
+      "score": 40.0,
+      "keyword_recall": 0.5,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 5.84
+    },
+    "verdict": "❌ INCORRECTO",
+    "issues": []
+  },
+  {
+    "id": "Q03",
+    "categoria": "Plaga insecto",
+    "pregunta": "¿Cómo se llaman popularmente los Agrotis sp. y en qué momento del día causan daños en las yemas?",
+    "respuesta_modelo": "Los gusanos grises se les llaman malduermes y durante la noche se alimentan de las yemas de la cepa.",
+    "respuesta_esperada": "Se llaman 'malduermes' o gusanos grises. Durante la noche se alimentan de las yemas de la cepa, mientras que durante el día permanecen escondidos en la tierra.",
+    "metricas": {
+      "score": 70.0,
+      "keyword_recall": 1.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 6.18
+    },
+    "verdict": "⚠️  PARCIAL",
+    "issues": []
+  },
+  {
+    "id": "Q04",
+    "categoria": "Virus",
+    "pregunta": "¿Qué síntomas produce el virus GPGV (Grapevine Pinot Gris Virus) en las cepas de La Rioja?",
+    "respuesta_modelo": "Los síntomas del GPGV en La Rioja presentan: retraso en la brotación, deformación y moteado amarillento de las hojas (tipo fitotoxicidad), entrenudos cortos y pérdida de rendimiento. Algunas plantas pueden ser portadoras del virus siendo asintomáticas o presentando síntomas muy débiles. En variedad Tempranillo, se observa reducción del crecimiento, síntomas de carencia de potasio y encorvamiento hacia el haz.",
+    "respuesta_esperada": "Retraso en la brotación, deformación y moteado amarillento de las hojas, entrenudos cortos y pérdida de rendimiento. Algunas plantas pueden ser portadoras asintomáticas.",
+    "metricas": {
+      "score": 70.0,
+      "keyword_recall": 1.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 13.35
+    },
+    "verdict": "⚠️  PARCIAL",
+    "issues": []
+  },
+  {
+    "id": "Q05",
+    "categoria": "Virus — transmisión",
+    "pregunta": "¿A través de qué ácaro se transmite el virus GPGV en campo?",
+    "respuesta_modelo": "El virus GPGV se transmite en campo a través del ácaro causante de la erinosis, Colomerus vitis, presente en la mayoría de los viñedos.",
+    "respuesta_esperada": "El virus GPGV se transmite a través del ácaro causante de la erinosis, Colomerus vitis, presente en la mayoría de los viñedos.",
+    "metricas": {
+      "score": 70.0,
+      "keyword_recall": 1.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 6.69
+    },
+    "verdict": "⚠️  PARCIAL",
+    "issues": []
+  },
+  {
+    "id": "Q06",
+    "categoria": "Nutrición",
+    "pregunta": "¿Cuál es la carencia nutricional más frecuentemente observada en los viñedos riojanos y qué síntomas produce?",
+    "respuesta_modelo": "La carencia más frecuentemente observada en los viñedos riojanos es la carencia de potasio.",
+    "respuesta_esperada": "La carencia más frecuente es la de potasio. Los síntomas son amarillamiento (variedades blancas) o enrojecimiento (variedades tintas) por el borde de las hojas, con necrosis y defoliación.",
+    "metricas": {
+      "score": 25.0,
+      "keyword_recall": 0.25,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 6.09
+    },
+    "verdict": "❌ INCORRECTO",
+    "issues": []
+  },
+  {
+    "id": "Q07",
+    "categoria": "Plaga principal",
+    "pregunta": "¿Cuántas generaciones al año tiene normalmente la polilla del racimo Lobesia botrana en La Rioja?",
+    "respuesta_modelo": "Normalmente 3 en Rioja Baja y 2 en Rioja Alta.",
+    "respuesta_esperada": "Normalmente tiene 3 generaciones en Rioja Baja y 2 en Rioja Alta.",
+    "metricas": {
+      "score": 70.0,
+      "keyword_recall": 1.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 4.39
+    },
+    "verdict": "⚠️  PARCIAL",
+    "issues": []
+  },
+  {
+    "id": "Q08",
+    "categoria": "Confusión sexual",
+    "pregunta": "¿Cuál es la superficie mínima de viñedo necesaria para aplicar la técnica de confusión sexual contra la polilla del racimo?",
+    "respuesta_modelo": "Se debe contar con una superficie mínima de viñedo de al menos 5 hectáreas, en la que todas las parcelas deben estar en confusión.",
+    "respuesta_esperada": "La técnica requiere una superficie mínima de 5 hectáreas, bien en una sola finca o en varias agrupadas.",
+    "metricas": {
+      "score": 70.0,
+      "keyword_recall": 1.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 6.06
+    },
+    "verdict": "⚠️  PARCIAL",
+    "issues": []
+  },
+  {
+    "id": "Q09",
+    "categoria": "Confusión sexual — calendario",
+    "pregunta": "¿Cuándo deben colocarse los difusores de feromonas en Rioja Media para el control de Lobesia botrana?",
+    "respuesta_modelo": "Hacia mediados de abril en Rioja Media.",
+    "respuesta_esperada": "Los difusores deben colocarse hacia mediados de abril en Rioja Media, antes de que se inicie el vuelo de adultos.",
+    "metricas": {
+      "score": 70.0,
+      "keyword_recall": 1.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": false,
+      "latency_s": 3.98
+    },
+    "verdict": "⚠️  PARCIAL",
+    "issues": []
+  },
+  {
+    "id": "Q10",
+    "categoria": "Marco normativo",
+    "pregunta": "¿Con qué Real Decreto está relacionada la técnica de confusión sexual como estrategia de gestión integrada de plagas?",
+    "respuesta_modelo": "No tengo suficiente información en el documento para responder.",
+    "respuesta_esperada": "La confusión sexual cumple con el sistema de gestión integrada de plagas contemplado en el Real Decreto 1311/2012 de uso sostenible de fitosanitarios.",
+    "metricas": {
+      "score": 0,
+      "keyword_recall": 0.0,
+      "hallucination_score": 0.0,
+      "refused_to_answer": true,
+      "latency_s": 3.75
+    },
+    "verdict": "🚨 ALUCINACIÓN / FALLO CRÍTICO",
+    "issues": [
+      "❌ Modelo rechazó responder (debería tener info en contexto)"
+    ]
+  }
+]

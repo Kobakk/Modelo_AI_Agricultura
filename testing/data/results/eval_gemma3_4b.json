@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Q01",
+    "respuesta_modelo": "Excoriosis Diaporthe ampelina (Phomopsis viticola) puede causar daños durante el desborre, principalmente en la variedad Garnacha.",
+    "latencia_s": 8.61,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q02",
+    "respuesta_modelo": "Para controlar la excoriosis es aconsejable realizar dos tratamientos en los estados C (punta verde) y D (salida de hojas).",
+    "latencia_s": 5.84,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q03",
+    "respuesta_modelo": "Los gusanos grises se les llaman malduermes y durante la noche se alimentan de las yemas de la cepa.",
+    "latencia_s": 6.18,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q04",
+    "respuesta_modelo": "Los síntomas del GPGV en La Rioja presentan: retraso en la brotación, deformación y moteado amarillento de las hojas (tipo fitotoxicidad), entrenudos cortos y pérdida de rendimiento. Algunas plantas pueden ser portadoras del virus siendo asintomáticas o presentando síntomas muy débiles. En variedad Tempranillo, se observa reducción del crecimiento, síntomas de carencia de potasio y encorvamiento hacia el haz.",
+    "latencia_s": 13.35,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q05",
+    "respuesta_modelo": "El virus GPGV se transmite en campo a través del ácaro causante de la erinosis, Colomerus vitis, presente en la mayoría de los viñedos.",
+    "latencia_s": 6.69,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q06",
+    "respuesta_modelo": "La carencia más frecuentemente observada en los viñedos riojanos es la carencia de potasio.",
+    "latencia_s": 6.09,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q07",
+    "respuesta_modelo": "Normalmente 3 en Rioja Baja y 2 en Rioja Alta.",
+    "latencia_s": 4.39,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q08",
+    "respuesta_modelo": "Se debe contar con una superficie mínima de viñedo de al menos 5 hectáreas, en la que todas las parcelas deben estar en confusión.",
+    "latencia_s": 6.06,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q09",
+    "respuesta_modelo": "Hacia mediados de abril en Rioja Media.",
+    "latencia_s": 3.98,
+    "modelo": "gemma3_4b"
+  },
+  {
+    "id": "Q10",
+    "respuesta_modelo": "No tengo suficiente información en el documento para responder.",
+    "latencia_s": 3.75,
+    "modelo": "gemma3_4b"
+  }
+]
